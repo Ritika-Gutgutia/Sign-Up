@@ -1,0 +1,180 @@
+body {
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/2a/a7/8a/2aa78a2c8fbe91b37bfed0fbb32fae82.jpg");
+  font-style: "Merriweather-Sans", sans-serif;
+}
+
+p {
+  padding: 24px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: #C9CCD5;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 15px;
+  color: black;
+}
+
+.nav-link {
+  font-size: 0.8rem;
+  margin-right: 15px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.background-vector {
+  display: inline-block;
+  height: 430px;
+  background-color: #15133C;
+  margin: 100px auto auto 40px;
+  text-align: left;
+  padding: 30px;
+  width: 100%;
+}
+
+.introduction {
+  font-style: 'Archivo Black', sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.features {
+  margin: 40px auto auto;
+  font-size: 1.2rem;
+  color: #DFDFDE;
+  font-weight: normal;
+  line-height: 2.2;
+}
+
+#Sign-up {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.card {
+  background-color: #EEEEEE;
+  display: inline-block;
+  height: 470px;
+  align-items: center;
+  margin: 50px auto auto;
+  width: 90%;
+}
+
+.card-header {
+  position: relative;
+  width: 100%;
+}
+
+.change {
+  padding: 20px 20px 20px 30px;
+}
+
+.check-box {
+  position: relative;
+  width: 100%;
+  height: 24px;
+  border-color: #212121;
+  border-radius: 8%;
+}
+
+.btn {
+  position: relative;
+  width: 40%;
+  font-size: 1rem;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAzJlJ5o54AAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+  border-style: none;
+  margin-top: 19px;
+  background-color: #fff;
+}
+
+.horizontal {
+  content: "";
+  display: inline-block;
+  border: solid #DFDFDE;
+  margin: auto auto 3px 2px;
+  width: 70px;
+  weight: normal;
+}
+
+.icon {
+  margin: 1px 60px auto 60px;
+}
+
+#community {
+  background-color: #C9CCD5;
+  margin-top: 100px;
+  padding: 5% 13%;
+  font-size: 0.8rem;
+}
+
+.headline {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.Community {
+  padding: 1.5%;
+}
+
+#Copyright {
+  height: 200px;
+}
+
+.copyright-span {
+  font-weight: 500;
+  color: white;
+  padding: 10% 2% 2%;
+}
+
+.f-icons {
+  padding: 7% 1% 1%;
+}
+
+@media (max-width:1000px) {
+  .background-vector {
+    margin: 40px auto auto;
+    height: 470px;
+  }
+
+  .introduction {
+    font-size: 2.5rem;
+  }
+
+  #Sign-up {
+    margin: auto;
+  }
+
+  #community {
+    padding: 7% 11%;
+  }
+
+  .f-icons {
+    color: white;
+  }
+
+  .cp {
+    padding-top: 7%;
+  }
+}
